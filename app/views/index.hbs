@@ -1,2 +1,87 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href="./stylesheets/style.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./js/app.js">
+    </script>
+    <title>g44ssips</title>
+</head>
+<body>
+    <!-- TOP NAV BAR -->
+    <header>
+        <nav>
+            <div class="nav-wrapper grey lighten-2">
+                <a href="#!" class="brand-logo grey darken-3">G<span class="orange-text text-darken-2">44</span>ssip</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect waves-light btn orange darken-2">Write a Post<i class="material-icons right">playlist_add</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hamburga left"> <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons medium orange-text text-darken-3">menu</i></a></div>
+        <!-- SIDE NAV BAR -->
+        <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="userView">
+                    <div class="background">
+                        <img src="./img/sideNavBG.png">
+                    </div>
+                    <a href="#!user"><img class="circle" src="./img/FlavorLord.png"></a>
+                    <a href="#!name"><span class="eggzo white-text name">Tommy's Blogzone</span></a>
+                    <a href="#!latest"><span class="eggzo white-text latest">Latest Blog Entry</span></a>
+                </div>
+            </li>
+            <li><a href="#!"><i class="material-icons orange-text text-darken-2">perm_identity</i>My Blog</a></li>
+            <li><a href="#!"><i class="material-icons orange-text text-darken-2">settings</i>My Profile</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Bio</a></li>
+            <li>THis is a little summary about old tomzo</li>
+        </ul>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- MAIN PAGE CONTENT -->
+        <div class="blogArea container">
+        <img class="center dialImg" src="./img/FlavorLord.png">
+        <h4 class="center">Tommy's Blogzone</h4>
+            <div class="section">
+                <h5>Blog Entry #1</h5>
+                <p>This is a brief summary description</p>
+            </div>
+            <div class="divider"></div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="page-footer grey lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">G<span class="orange-text text-darken-2">44</span>ssips Blog Site</h5>
+                    <p class="black-text">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="black-text">Links</h5>
+                    <ul>
+                        <li><a class="orange-text text-darken-3" href="#!">Blogfeed</a></li>
+                        <li><a class="orange-text text-darken-3" href="#!">My Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-2">
+            <div class="container">
+                © 2017 Copyright G44ssip
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

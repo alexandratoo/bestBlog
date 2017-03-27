@@ -1,8 +1,37 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+a.brand-logo {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 50px;
+}
+
+.hamburga {
+  position: fixed;
+}
+
+.blogArea {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+span.eggzo.white-text{
+  background-color: rgba(0, 0, 0, 0.80);
+  padding: 6px;
+}
+span.eggzo.white-text.name{
+  text-transform: uppercase;
+}
+
+.dialImg {
+  border-radius: 50%;
+  height: 175px;
+  display: block;
+  margin: auto;
 }
